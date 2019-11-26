@@ -1,0 +1,64 @@
+{
+  "stations" : {
+    "1" : [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "2" : [
+      "G",
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "3" : [
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  "connections": [
+    [
+      {
+        "line": 1,
+        "station": "D"
+      },
+      {
+        "line": 2,
+        "station": "H"
+      }
+    ],
+    [
+      {
+        "line": 2,
+        "station": "K"
+      },
+      {
+        "line": 3,
+        "station": "M"
+      }
+    ]
+  ],
+  "lines" : [
+    {
+      "number" : 1,
+      "name" : "A-F",
+      "color" : "red"
+    },
+    {
+      "number" : 2,
+      "name" : "G-K",
+      "color" : "blue"
+    },
+    {
+      "number" : 3,
+      "name" : "L-O",
+      "color" : "green"
+    }
+  ]
+}
